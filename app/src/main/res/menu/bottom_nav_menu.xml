@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Menu"
+        android:icon="@drawable/round_home_24"
+        android:id="@+id/menu"
+        android:iconTint="@color/design_default_color_primary"
+        />
+    <item android:title="@string/istaklar"
+        android:icon="@drawable/icons8_like_100"
+        android:id="@+id/likes"
+        />
+    <item android:title="Savat"
+        android:icon="@drawable/baseline_shopping_cart_24"
+        android:id="@+id/cart"
+        />
+    <item android:title="Profil"
+        android:icon="@drawable/round_person_24"
+        android:id="@+id/user"
+        />
+</menu>
