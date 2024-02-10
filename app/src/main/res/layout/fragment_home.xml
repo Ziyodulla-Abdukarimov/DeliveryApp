@@ -144,54 +144,195 @@
 
         </FrameLayout>
 
-        <androidx.gridlayout.widget.GridLayout
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:columnCount="2"
-            app:rowCount="10">
+            android:layout_height="match_parent">
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:layout_column="1"
-                app:layout_row="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/textViewa2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="TextView" />
-            </androidx.cardview.widget.CardView>
+                <androidx.gridlayout.widget.GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="25dp"
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:layout_column="1"
-                app:layout_row="1">
+                    app:columnOrderPreserved="false"
 
-                <TextView
-                    android:id="@+id/textViewa2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="TextView" />
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:layout_column="1"
-                app:layout_row="1">
-
-                <TextView
-                    android:id="@+id/textViewa2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="TextView" />
-            </androidx.cardview.widget.CardView>
+                    app:columnCount="2"
+                    app:rowCount="10">
 
 
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="154dp"
+                        android:layout_height="100dp"
+                        app:cardBackgroundColor="#FFBB64"
+                        android:layout_marginRight="53dp"
+                        android:layout_marginBottom="25dp"
+                        >
 
-        </androidx.gridlayout.widget.GridLayout>
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="TextView" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="154dp"
+                        android:layout_height="100dp"
+                        android:layout_marginBottom="25dp"
+                        app:cardBackgroundColor="#875233"
+                        ></androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="154dp"
+                        android:layout_height="100dp"
+                        app:cardBackgroundColor="#FF6868"
+                        android:layout_marginRight="53dp"
+                        android:layout_marginBottom="25dp"
+                        >
+
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="TextView" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="154dp"
+                        android:layout_height="100dp"
+                        android:layout_marginBottom="25dp"
+                        app:cardBackgroundColor="#DCFFB7"
+                        ></androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="154dp"
+                        android:layout_height="100dp"
+                        app:cardBackgroundColor="#FFEAA7"
+                        android:layout_marginRight="53dp"
+                        android:layout_marginBottom="25dp"
+                        >
+
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="TextView" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="154dp"
+                        android:layout_height="100dp"
+                        android:layout_marginBottom="25dp"
+                        app:cardBackgroundColor="#7F27FF"
+                        ></androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="154dp"
+                        android:layout_height="100dp"
+                        app:cardBackgroundColor="#9F70FD"
+                        android:layout_marginRight="53dp"
+                        android:layout_marginBottom="25dp"
+                        >
+
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="TextView" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="154dp"
+                        android:layout_height="100dp"
+                        android:layout_marginBottom="25dp"
+                        app:cardBackgroundColor="#FF8911"
+                        ></androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="154dp"
+                        android:layout_height="100dp"
+                        app:cardBackgroundColor="#6F61C0"
+                        android:layout_marginRight="53dp"
+                        android:layout_marginBottom="25dp"
+                        >
+
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="TextView" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="154dp"
+                        android:layout_height="100dp"
+                        android:layout_marginBottom="25dp"
+                        app:cardBackgroundColor="#8BE8E5"
+                        ></androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="154dp"
+                        android:layout_height="100dp"
+                        app:cardBackgroundColor="#ED9ED6"
+                        android:layout_marginRight="53dp"
+                        android:layout_marginBottom="25dp"
+                        >
+
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="TextView" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="154dp"
+                        android:layout_height="100dp"
+                        android:layout_marginBottom="25dp"
+                        app:cardBackgroundColor="#FFC7C7"
+                        ></androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="154dp"
+                        android:layout_height="100dp"
+                        app:cardBackgroundColor="#11009E"
+                        android:layout_marginRight="53dp"
+                        android:layout_marginBottom="25dp"
+                        >
+
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="TextView" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="154dp"
+                        android:layout_height="100dp"
+                        android:layout_marginBottom="25dp"
+                        app:cardBackgroundColor="#4942E4"
+                        ></androidx.cardview.widget.CardView>
+
+
+
+                </androidx.gridlayout.widget.GridLayout>
+
+            </LinearLayout>
+
+
+        </ScrollView>
 
     </LinearLayout>
 
