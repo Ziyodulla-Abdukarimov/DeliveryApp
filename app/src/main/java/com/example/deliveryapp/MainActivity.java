@@ -6,9 +6,12 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
+import android.view.View;
 
 import com.example.deliveryapp.databinding.ActivityMainBinding;
 import com.google.android.material.badge.BadgeDrawable;
+import com.google.android.material.bottomnavigation.LabelVisibilityMode;
+import com.google.android.material.tabs.TabLayout;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         BadgeDrawable badgeDrawable = binding.bottomNavigationView.getOrCreateBadge(R.id.likes);
         badgeDrawable.setVisible(true);
         badgeDrawable.setNumber(3);
+        binding.bottomNavigationView.clearAnimation();
 
 
         binding.bottomNavigationView.setOnItemSelectedListener(item -> {

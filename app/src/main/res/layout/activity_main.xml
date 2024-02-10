@@ -24,8 +24,8 @@
         android:animateLayoutChanges="false"
         android:animationCache="false"
         android:background="@color/white"
-
         app:itemIconTint="#11AB69"
+        app:labelVisibilityMode="auto"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
